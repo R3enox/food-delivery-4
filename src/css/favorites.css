@@ -15,15 +15,15 @@
 }
 
 .our-favorites-item {
-    border: 15px solid var(--accent-color-yellow);
+    border: 15px solid var(--accent-color);
     border-radius: 197.5px;
     padding: 24px;
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border-color var(--transition-dur-and-func);
 }
 
 .our-favorites-item:hover,
 .our-favorites-item:focus {
-    border-color: var(--secondary-color);
+    border-color: var(--first-color);
 }
 
 /* ----------------- /FAVORITES ----------------- */
