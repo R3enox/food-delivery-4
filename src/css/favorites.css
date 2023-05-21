@@ -1,0 +1,29 @@
+/* ----------------- FAVORITES ----------------- */
+.title-center {
+    text-align: center;
+}
+
+.section-center {
+    text-align: center;
+    margin-bottom: 36px;
+}
+
+.our-favorites-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.our-favorites-item {
+    border: 15px solid var(--accent-color-yellow);
+    border-radius: 197.5px;
+    padding: 24px;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.our-favorites-item:hover,
+.our-favorites-item:focus {
+    border-color: var(--secondary-color);
+}
+
+/* ----------------- /FAVORITES ----------------- */
