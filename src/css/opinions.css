@@ -32,7 +32,6 @@
 
 .comment-desc {
     font-family: var(--main-font-family);
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.16;
@@ -59,7 +58,7 @@
     padding-bottom: 4px;
     padding-right: 14px;
     padding-left: 16px;
-    border-right: 1px solid #7EB101;
+    border-right: 1px solid var(--secondary-color);
 }
 
 .avatar-name {
