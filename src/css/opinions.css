@@ -1,0 +1,80 @@
+
+/* -----------------OPINIONS---------------- */
+.opinions {
+    background-color: var(--accent-color);
+}
+    
+.icon-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 28px;
+}
+.opinions-desc {
+    margin-bottom: 32px;
+}
+
+.opinions-list {
+    display: flex;
+    gap: 140px;
+}
+
+.opinions-list-item {
+    background-color: var(--background-color);
+    max-width: 501px;
+    padding: 14px;
+    border-radius: 0px 30px 30px 30px;
+    border: none;
+}
+
+.stars-icon {
+    fill: var(--accent-color);
+}
+
+.comment-desc {
+    font-family: var(--main-font-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16;
+    color: var(--primary-text-color);
+    margin-bottom: 40px;
+    max-width: 473px; 
+}
+
+.avatar-content {
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    width: 48px;
+    height: 48px;
+}
+
+.avatar-desc {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 14px;
+    padding-left: 16px;
+    border-right: 1px solid var(--secondary-color);
+}
+
+.avatar-name {
+    font-family: var(--main-font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.5;
+    color: var(--primary-text-color);
+    margin-bottom: 2px;
+}
+
+.avatar-position {
+    font-family: var(--main-font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    color: var(--primary-text-color);
+}
+/* -----------------/OPINIONS---------------- */
