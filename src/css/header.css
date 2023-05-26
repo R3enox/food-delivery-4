@@ -1,0 +1,83 @@
+.header {
+  background: var(--background-color);
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 4px 24px rgba(105, 105, 105, 0.1);
+}
+
+.logo-icon {
+  transition: transform 250ms linear;
+}
+
+.logo-icon:hover {
+  transform: scale(120%);
+}
+
+.wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-link {
+  margin-right: auto;
+}
+
+.menu-list {
+  display: flex;
+  gap: 28px;
+
+  margin-right: 30px;
+}
+
+.menu-link {
+  color: var(--primary-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--first-color);
+}
+
+.current-link {
+  color: var(--first-color);
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.button {
+  display: block;
+  cursor: pointer;
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.5;
+
+  padding: 6px 18px;
+
+  border-radius: 30px;
+}
+
+.btn-main {
+  background-color: var(--first-color);
+  border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-main:hover,
+.btn-main:focus {
+  background-color: var(--accent-color);
+}
