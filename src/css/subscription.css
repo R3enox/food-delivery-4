@@ -26,28 +26,34 @@
     margin-bottom: 54px;
 }
 
-.sub-list {
+.sub-form {
     display: flex;
-    gap: 21px;
+}
+.sub-form-field {
+    margin-right: 21px;
 }
 
-.enter-email {
+.sub-form-input {
     font-size: 12px;
     line-height: 1.5;
-    color: #505050;
-    background-color: var(--background-color);
+    color: var(--primary-text-color);
+    background-color: transparent;
     border-radius: 30px;
     border: 0.85px solid var(--accent-color);
     width: 395px;
     max-height: 42px;
     padding: 12px 57px 12px 11px;
     text-align: left;
-    cursor: pointer;
-    transition: border-color var(--transition-dur-and-func); 
+    outline: transparent;
+    transition: border-color var(--transition-dur-and-func),
+    color var(--transition-dur-and-func); 
 }
 
-.enter-email:hover,
-.enter-email:focus {
+.sub-form-input::placeholder {
+    color:#505050;
+}
+
+.sub-form-input:focus {
     border-color: var(--first-color);
     color: var(--primary-text-color);
 }
