@@ -12,19 +12,11 @@
 }
 
 .apple-img {
-  border-radius: 50%;
-  background-color: var(--background-color);
-
-  padding-right: 52px;
-  padding-top: 0;
-  padding-bottom: 24px;
-  padding-left: 52px;
-}
-
-.border-apple {
+  width: 502px;
+  height: 526px;
   border: 5px solid rgba(255, 255, 255, 0.5);
   border-radius: 50%;
-  padding: 24px;
+  padding: 0 25px 24px 24px;
 }
 
 .container-icon-apple {
@@ -41,7 +33,7 @@
 
 .apple-section .apple-title {
   color: var(--primary-color);
-  font-family: 'Roboto', sans-serif;
+
   font-weight: 700;
   font-size: 42px;
   line-height: 1.2;
@@ -51,7 +43,6 @@
 
 .apple-section .apple-text {
   color: var(--primary-color);
-  font-family: 'Roboto', sans-serif;
 
   font-weight: 400;
   font-size: 16px;
