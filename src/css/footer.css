@@ -28,6 +28,8 @@
   font-size: 14px;
   line-height: 1.14;
   color: var(--dark);
+
+  transition: color var(--transition-dur-and-func);
 }
 .footer-menu-link:hover,
 .footer-menu-link:focus {
@@ -53,6 +55,7 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 1.6667;
+  text-decoration: underline;
   color: var(--secondary-color);
 }
 .info-paragraph {
@@ -96,10 +99,11 @@ label {
   border: 0.854167px solid var(--accent-color);
   border-radius: 30px;
   padding: 12px 61.5px 12px 12px;
+  transition: border var(--transition-dur-and-func);
 }
 .input-email:hover,
 .input-email:focus {
-  outline: var(--secondary-color);
+  outline: none;
   border: 0.854167px solid var(--secondary-color);
 }
 .subscribe-btn {
@@ -115,12 +119,9 @@ label {
   border: 0.854167px solid var(--secondary-color);
   border-radius: 30px;
   height: 42px;
+  transition: border var(--transition-dur-and-func);
 }
 .subscribe-btn:hover,
 .subscribe-btn:focus {
   border: 2px solid var(--accent-color);
-}
-.footer-menu-link:hover,
-.footer-menu-link:focus {
-  color: var(--secondary-color);
 }
