@@ -1,0 +1,137 @@
+:root {
+  --modal-text-color: #c4c4c4;
+  --modal-background-color: #ffffff;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(94, 99, 99, 0.7);
+  transition: opacity var(--transition-dur-and-func),
+    visibility var(--transition-dur-and-func);
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--accent-color);
+  width: 458px;
+  min-height: 449px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.06);
+  border-radius: 30px;
+  padding: 32px;
+  /* transition: transform var(--transition-dur-and-func); */
+}
+.contact-form-header {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.2;
+  color: var(--primary-text-color);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-field {
+  display: block;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.4;
+  color: var(--primary-text-color);
+  margin-bottom: 2px;
+  margin-left: 12px;
+  margin-right: 0;
+}
+.contact-form-input {
+  display: block;
+  width: 100%;
+  height: 48px;
+  background-color: var(--modal-background-color);
+  border: none;
+  border: 1px solid rgba(18, 18, 18, 0.12);
+  box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 30px;
+  outline: transparent;
+  padding-left: 12px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  color: var(--modal-text-color);
+  margin-bottom: 24px;
+  transition: border-color var(--transition-dur-and-func),
+    color var(--transition-dur-and-func),
+    background-color var(--transition-dur-and-func);
+}
+.contact-form-input:hover,
+.contact-form-input:focus {
+  border: 1px solid var(--secondary-color);
+  color: var(--primary-text-color);
+  background-color: var(--modal-background-color);
+}
+
+.modal-close-btn {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 12px;
+  right: 12px;
+  width: 32px;
+  height: 32px;
+  background-color: var(--modal-background-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.06);
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  outline: transparent;
+}
+
+.contact-form-btn {
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--primary-text-color);
+  cursor: pointer;
+  min-width: 106px;
+  height: 40px;
+  background-color: var(--modal-background-color);
+  border: none;
+  border: 2px solid var(--secondary-color);
+  border-radius: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  transition: background-color var(--transition-duration-and-function);
+}
+.contact-form-btn:hover,
+.contact-form-btn:focus {
+  background-color: var(--first-color);
+}

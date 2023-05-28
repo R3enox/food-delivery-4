@@ -1,0 +1,127 @@
+/* footer */
+.page-footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  box-shadow: 0px -4px 24px rgba(105, 105, 105, 0.1);
+  background-image: url(../img/footer/fruit-futer.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 1211px 266px;
+}
+
+.footer-container {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 80px;
+}
+.footer-menu-list {
+  display: flex;
+  gap: 28px;
+  margin-right: 30px;
+}
+.footer-menu-link {
+  display: block;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--dark);
+
+  transition: color var(--transition-dur-and-func);
+}
+.footer-menu-link:hover,
+.footer-menu-link:focus {
+  color: var(--first-color);
+}
+.email {
+  margin-left: auto;
+}
+.footer-logo {
+  margin-right: 148px;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.info-list {
+  display: flex;
+  gap: 20px;
+}
+.info-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.6667;
+  text-decoration: underline;
+  color: var(--secondary-color);
+}
+.info-paragraph {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.6667;
+  color: var(--primary-text-color);
+}
+.form-email {
+  display: flex;
+  align-items: flex-end;
+}
+label {
+  display: flex;
+  flex-direction: column;
+  margin-right: 24px;
+}
+.privat-policy {
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.label-email {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--primary-text-color);
+  row-gap: 12px;
+}
+
+.input-email {
+  width: 279px;
+  height: 42px;
+  left: 869px;
+  top: 3714px;
+  font-family: 'Roboto', sans-serif;
+  background: var(--background-color);
+  border: 0.854167px solid var(--accent-color);
+  border-radius: 30px;
+  padding: 12px 61.5px 12px 12px;
+  transition: border var(--transition-dur-and-func);
+}
+.input-email:hover,
+.input-email:focus {
+  outline: none;
+  border: 0.854167px solid var(--secondary-color);
+}
+.subscribe-btn {
+  display: inline;
+  font-family: 'Roboto', sans-serif;
+  min-width: 103px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--primary-text-color);
+  background: var(--background-color);
+  border: 0.854167px solid var(--secondary-color);
+  border-radius: 30px;
+  height: 42px;
+  transition: border var(--transition-dur-and-func);
+}
+.subscribe-btn:hover,
+.subscribe-btn:focus {
+  border: 2px solid var(--accent-color);
+}
