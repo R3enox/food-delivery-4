@@ -24,7 +24,7 @@
     />
     
     <script type="module" crossorigin src="/food-delivery-4/assets/index-03f5ebd9.js"></script>
-    <link rel="stylesheet" href="/food-delivery-4/assets/index-0f6e77ee.css">
+    <link rel="stylesheet" href="/food-delivery-4/assets/index-c4d2992c.css">
   </head>
   <body>
     
@@ -161,7 +161,137 @@
   </section>
   <!-- /SUBSCRIPTION -->
     </main>
-    
+    <!-- Page footer -->
+    <footer class="page-footer">
+      <div class="container">
+        <div class="footer-container">
+          <a href="" class="footer-logo-link footer-logo"
+            >
+            <svg
+                  class="logo-icon"
+                  aria-label="icon logo"
+                  width="64"
+                  height="64"
+                >
+                  <use href="/food-delivery-4/assets/icons-eaae0889.svg#icon-logo"></use>
+                </svg>
+    </a>
+          <ul class="footer-menu-list list">
+            <li class="footer-menu-item">
+              <a href="" class="footer-menu-link link">Home</a>
+            </li>
+            <li class="footer-menu-item">
+              <a href="" class="footer-menu-link link">About</a>
+            </li>
+            <li class="footer-menu-item">
+              <a href="" class="footer-menu-link link">Service</a>
+            </li>
+            <li class="footer-menu-item">
+              <a href="" class="footer-menu-link link">Menu</a>
+            </li>
+            <li class="footer-menu-item">
+              <a href="" class="footer-menu-link link">Contact</a>
+            </li>
+          </ul>
+          <div class="email">
+            <form class="form-email">
+              <label class="label-email">
+                Subscribe
+                <input
+                  class="input-email"
+                  type="email"
+                  name="email"
+                  placeholder="Enter your email"
+                />
+              </label>
+              <button class="subscribe-btn" type="submit">Subscribe</button>
+            </form>
+            <div class="privat-policy">
+
+              <p class="info-paragraph">By subscribing you agree to with our 
+              <a href="" class="info-link">Privacy Policy</a> </p>
+            </div>
+          </div>
+        </div>
+        <div class="info">
+          <ul class="info-list list">
+            <li class="info-item">
+              <a href="" class="info-link">Privacy Policy</a>
+            </li>
+            <li class="info-item">
+              <a href="" class="info-link">Terms of Service</a>
+            </li>
+            <li class="info-item">
+              <a href="" class="info-link">Cookies Settings</a>
+            </li>
+          </ul>
+          <p class="info-paragraph">2022 FoodSta. All right reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+
+
+    <!-- backdrop -->
+<div class="backdrop" data-modal>
+  <!-- <div class="backdrop is-hidden" data-modal> -->
+  <div class="modal">
+    <h2 class="visually-hidden">User contact form</h2>
+    <p class="contact-form-header">Order Form</p>
+    <form class="contact-form">
+      <div class="contact-form-item">
+        <label class="form-field" for="user-name">Name</label>
+        <input
+          class="contact-form-input"
+          type="text"
+          autofocus
+          id="user-name"
+          name="user-name"
+          placeholder="Your name"
+          required
+          pattern="[a-zA-Zа-яА-ЯіІїЇґҐєЄʼ]+"
+        />
+      </div>
+
+      <div class="contact-form-item">
+        <label class="form-field-wrapper" for="user_phone">Phone number</label>
+        <input
+          class="contact-form-input"
+          type="tel"
+          id="user_phone"
+          name="user_phone"
+          required
+          pattern="+[0-9]{2}([0-9]{3})[0-9]{3}[0-9]{2}[0-9]{2}"
+          title="+38(0_ _) _ _ _   _ _   _ _"
+          placeholder="+38(0_ _) _ _ _   _ _   _ _"
+        />
+      </div>
+
+      <div class="contact-form-item">
+        <label class="form-field-wrapper" for="user_email">E-mail</label>
+        <input
+          class="contact-form-input"
+          type="email"
+          id="user_email"
+          name="user_email"
+          required
+          placeholder="example@gmail.com"
+          title="example@gmail.com"
+        />
+      </div>
+
+      <button type="submit" class="contact-form-btn">Send</button>
+    </form>
+    <button type="button" class="modal-close-btn" data-modal-close>
+      <svg class="modal-close-icon" width="10.76" height="10.76">
+        <use href="/food-delivery-4/assets/icons-eaae0889.svg#icon-close-form"></use>
+      </svg>
+    </button>
+  </div>
+</div>
+<script src="./js/modal.js"></script>
+
 
     
   </body>
